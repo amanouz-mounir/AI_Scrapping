@@ -4,8 +4,8 @@ from selenium.webdriver.common.by import By
 from bs4 import BeautifulSoup
 
 # Définir les informations d'authentification pour se connecter au proxy
-AUTH = 'brd-customer-hl_ecc1bceb-zone-ai_scraper:1kwl4owhf2g2'
-SBR_WEBDRIVER = f'https://{AUTH}@brd.superproxy.io:9515'
+AUTH = ...
+SBR_WEBDRIVER = ...
 
 def scrape_website(website):
     """
